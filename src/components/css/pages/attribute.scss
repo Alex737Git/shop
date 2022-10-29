@@ -1,0 +1,61 @@
+@import "../globals/variables";
+
+.attribute-value{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  min-width: 20px;
+  min-height: 20px;
+  max-width: 60px;
+  max-height: 60px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  //cursor: pointer;
+
+
+  border: 1px solid $black;
+  //text-align: center;
+}
+
+.item-group{
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+
+
+  .selectedAttributeTxt{
+    background-color: $black;
+    color: $white;
+  }
+
+  .selectedAttributeColor{
+
+    border: 1px solid $green;
+
+    padding: 2px;
+    margin-bottom: 5px;
+  }
+  .colorContainer{
+    background: $white;
+    width: 18px;
+    height: 18px;
+    padding: 2px;
+  }
+
+}
+
+.attribute-item-name{
+font-size: 14px;
+  padding:  5px 0;
+}
+
+.color-box{
+  width: 16px;
+  height: 16px;
+  border: 1px solid $black;
+}
+
+
+
+

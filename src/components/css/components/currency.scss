@@ -1,0 +1,56 @@
+@import "../globals/variables";
+div.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+
+button {
+  display: flex;
+  justify-content: space-between;
+  background: $white;
+  border: 0;
+  border-radius: 4px;
+  width: 50px;
+  padding: 6px 8px;
+  position: relative;
+
+
+  &:hover{
+    cursor: pointer;
+  }
+
+
+}
+
+
+
+ul {
+  &.options{
+    display: none;
+    list-style: none;
+    padding: 4px 0;
+    margin-top: -4px;
+    position: absolute;
+
+    li{
+      padding: 8px 10px;
+
+
+    }
+  }
+
+  &.show{
+    display: block;
+  }
+
+
+}
+
+
+ul.options li:active,
+ul.options li:focus,
+ul.options li:hover{
+  cursor: pointer;
+  background: #EEEEEE;
+}

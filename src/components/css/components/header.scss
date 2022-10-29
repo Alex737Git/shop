@@ -1,0 +1,17 @@
+
+.header{
+  height: 80px;
+  //background: antiquewhite;
+  position: absolute;
+  left: 0;
+  top:0;
+  right:0;
+}
+
+.brandLogo{
+  position: absolute;
+  width: 41px;
+  height: 41px;
+    top: calc(50% - 41px/2 + 4.5px);
+  left:50%;
+}
